@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    
+  <header>
+    <h1 class="ab">Address Book</h1>
+  </header>
+
+  <form id="contact-form">
+    <input type="text" id="first-name" placeholder="First Name" required>
+    <input type="text" id="last-name" placeholder="Last Name" required>
+    <input type="text" id="phone-number" placeholder="Phone Number" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Add Contact</button>
+  </form>
+
+  <button id="show-contacts">Show Saved Contacts</button>
+
+  <h2>Contacts</h2>
+  <ul id="contact-list"></ul>
+
+  <h2>Contact Details</h2>
+  <div id="contact-details"></div>
+
+  <script src="./src/script.js"></script>
+  <script src="./src/ui.js"></script>
 </body>
+<footer>
+    <p>By Keith Mulwa</p>
+    
+</footer>
 </html>
