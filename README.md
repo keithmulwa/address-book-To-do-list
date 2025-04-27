@@ -29,3 +29,9 @@ An interactive address book web application built using **JavaScript**, where us
 # address-book-To-do-list
 # address-book-To-do-list
 # address-book-To-do-list
+
+---
+
+##license
+MIT License
+Copyright (c) 2025 Keith mulwa
