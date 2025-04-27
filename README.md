@@ -21,6 +21,16 @@ An interactive address book web application built using **JavaScript**, where us
 
 ---
 
+### Example Tests
+| Test Description | Input | Expected Output |
+|:-----------------|:------|:----------------|
+| Create a new contact | `new Contact("Keith mulwa", "1079657483", "keith12@example.com")` | Contact object with correct name, phone, email |
+| Add contact to address book | `addressBook.addContact(contact)` | Contact added to address book array |
+| Find a contact by ID | `addressBook.findContact(1)` | Returns contact object with ID 1 |
+| Delete a contact by ID | `addressBook.deleteContact(1)` | Contact with ID 1 is removed from address book |
+
+
+
 ## Installation
 
 1. Clone this repository to your local machine:
