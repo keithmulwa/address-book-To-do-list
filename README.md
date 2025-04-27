@@ -32,6 +32,6 @@ An interactive address book web application built using **JavaScript**, where us
 
 ---
 
-##license
+## License
 MIT License
 Copyright (c) 2025 Keith mulwa
